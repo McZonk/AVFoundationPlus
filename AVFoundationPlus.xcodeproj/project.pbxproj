@@ -88,7 +88,7 @@
 				50B2DEDC18698CBA009BA2E9 /* AVCaptureDevice+AVPDeviceWithProperties.h */,
 				50B2DEDD18698CBA009BA2E9 /* AVCaptureDevice+AVPDeviceWithProperties.m */,
 			);
-			path = AVFoundationPlus;
+			name = AVFoundationPlus;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +263,7 @@
 				50B2DED618698C8D009BA2E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
