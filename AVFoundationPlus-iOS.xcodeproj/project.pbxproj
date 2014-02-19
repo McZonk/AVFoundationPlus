@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		509B2E9D18B4CE8100C76D2D /* AVCaptureSession+AVPInterfaceOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 509B2E9C18B4CE8100C76D2D /* AVCaptureSession+AVPInterfaceOrientation.m */; };
+		509B2EA018B4CE8800C76D2D /* AVPCaptureVideoPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 509B2E9F18B4CE8800C76D2D /* AVPCaptureVideoPreviewView.m */; };
+		509B2EA318B4CF6700C76D2D /* AVCaptureSession+AVPDeviceOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 509B2EA218B4CF6700C76D2D /* AVCaptureSession+AVPDeviceOrientation.m */; };
 		50B2DEB518698C8D009BA2E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50B2DEB418698C8D009BA2E9 /* Foundation.framework */; };
 		50B2DEBA18698C8D009BA2E9 /* AVFoundationPlus.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 50B2DEB918698C8D009BA2E9 /* AVFoundationPlus.h */; };
 		50B2DEDE18698CBA009BA2E9 /* AVCaptureDevice+AVPAdjusting.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B2DEDB18698CBA009BA2E9 /* AVCaptureDevice+AVPAdjusting.m */; };
@@ -27,6 +30,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		509B2E9B18B4CE8100C76D2D /* AVCaptureSession+AVPInterfaceOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AVCaptureSession+AVPInterfaceOrientation.h"; sourceTree = "<group>"; };
+		509B2E9C18B4CE8100C76D2D /* AVCaptureSession+AVPInterfaceOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AVCaptureSession+AVPInterfaceOrientation.m"; sourceTree = "<group>"; };
+		509B2E9E18B4CE8800C76D2D /* AVPCaptureVideoPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVPCaptureVideoPreviewView.h; sourceTree = "<group>"; };
+		509B2E9F18B4CE8800C76D2D /* AVPCaptureVideoPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVPCaptureVideoPreviewView.m; sourceTree = "<group>"; };
+		509B2EA118B4CF6700C76D2D /* AVCaptureSession+AVPDeviceOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AVCaptureSession+AVPDeviceOrientation.h"; sourceTree = "<group>"; };
+		509B2EA218B4CF6700C76D2D /* AVCaptureSession+AVPDeviceOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AVCaptureSession+AVPDeviceOrientation.m"; sourceTree = "<group>"; };
 		50B2DEB118698C8D009BA2E9 /* libAVFoundationPlus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAVFoundationPlus.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		50B2DEB418698C8D009BA2E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		50B2DEB818698C8D009BA2E9 /* AVFoundationPlus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AVFoundationPlus-Prefix.pch"; sourceTree = "<group>"; };
@@ -87,6 +96,12 @@
 				50B2DEDB18698CBA009BA2E9 /* AVCaptureDevice+AVPAdjusting.m */,
 				50B2DEDC18698CBA009BA2E9 /* AVCaptureDevice+AVPDeviceWithProperties.h */,
 				50B2DEDD18698CBA009BA2E9 /* AVCaptureDevice+AVPDeviceWithProperties.m */,
+				509B2EA118B4CF6700C76D2D /* AVCaptureSession+AVPDeviceOrientation.h */,
+				509B2EA218B4CF6700C76D2D /* AVCaptureSession+AVPDeviceOrientation.m */,
+				509B2E9B18B4CE8100C76D2D /* AVCaptureSession+AVPInterfaceOrientation.h */,
+				509B2E9C18B4CE8100C76D2D /* AVCaptureSession+AVPInterfaceOrientation.m */,
+				509B2E9E18B4CE8800C76D2D /* AVPCaptureVideoPreviewView.h */,
+				509B2E9F18B4CE8800C76D2D /* AVPCaptureVideoPreviewView.m */,
 			);
 			name = AVFoundationPlus;
 			sourceTree = "<group>";
@@ -120,7 +135,7 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = McZonk;
 			};
-			buildConfigurationList = 50B2DEAC18698C8D009BA2E9 /* Build configuration list for PBXProject "AVFoundationPlus" */;
+			buildConfigurationList = 50B2DEAC18698C8D009BA2E9 /* Build configuration list for PBXProject "AVFoundationPlus-iOS" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -142,8 +157,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				509B2E9D18B4CE8100C76D2D /* AVCaptureSession+AVPInterfaceOrientation.m in Sources */,
 				50B2DEDF18698CBA009BA2E9 /* AVCaptureDevice+AVPDeviceWithProperties.m in Sources */,
+				509B2EA018B4CE8800C76D2D /* AVPCaptureVideoPreviewView.m in Sources */,
 				50B2DEDE18698CBA009BA2E9 /* AVCaptureDevice+AVPAdjusting.m in Sources */,
+				509B2EA318B4CF6700C76D2D /* AVCaptureSession+AVPDeviceOrientation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,7 +201,6 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -225,7 +242,7 @@
 			buildSettings = {
 				DSTROOT = /tmp/AVFoundationPlus.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AVFoundationPlus/AVFoundationPlus-Prefix.pch";
+				GCC_PREFIX_HEADER = "AVFoundationPlus-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -237,7 +254,7 @@
 			buildSettings = {
 				DSTROOT = /tmp/AVFoundationPlus.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AVFoundationPlus/AVFoundationPlus-Prefix.pch";
+				GCC_PREFIX_HEADER = "AVFoundationPlus-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -247,7 +264,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		50B2DEAC18698C8D009BA2E9 /* Build configuration list for PBXProject "AVFoundationPlus" */ = {
+		50B2DEAC18698C8D009BA2E9 /* Build configuration list for PBXProject "AVFoundationPlus-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				50B2DED218698C8D009BA2E9 /* Debug */,
